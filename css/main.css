@@ -38,20 +38,21 @@ header {
 h1 {
   
   font-size: 1.75em;
-  margin: 10px 0 0 20px;
+  margin: 10px 0 0 0px;
   line-height: .8em;
   color: coral;
   padding: 5px 5px;
-  display: inline-block;
+  text-align: center;
 
   
 }
 
 h2 {
-  margin: 10px 0 0 20px;
+  margin: 10px 0 0 0px;
   color: coral;
   padding: 0 5px;
-  
+  text-align: center;
+
 }
 
 
@@ -63,18 +64,26 @@ NAVIGATION
 **********************/
 
 nav ul {
-  margin: 0 15px;
+  list-style-type: none;
+  text-align: center;
+  padding: 0;
+
 }
 
 nav li {
+  text-align: center;
   display: inline-block;
+  padding: 0 0 0 10px;
+  
 }
 
 nav a {
-  font-weight: 800;
+  font-weight: ;
   padding: 15px 10px;
   color: coral;
-  display: inline-block;
+ 
+
+
   
   
   
