@@ -81,6 +81,10 @@ nav a {
   font-weight: ;
   padding: 15px 10px;
   color: coral;
+
+  #pic1 {
+    max-width: 80%;
+  }  
  
 
 /**********************
@@ -93,9 +97,7 @@ FOOTER
     max-width: 15%;
   }
   
-  linkedin.jpg {
-    border: 10px;
-  }
+
 
 
 
