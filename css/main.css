@@ -83,10 +83,19 @@ nav a {
   color: coral;
  
 
-
+/**********************
+FOOTER
+**********************/
   
   
+  .foot {
+    max-height: 15%;
+    max-width: 15%;
+  }
   
+  linkedin.jpg {
+    border: 10px;
+  }
 
 
 
