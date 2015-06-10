@@ -3,7 +3,11 @@ GENERAL
 **********************/
 
 
-
+img {
+  max-width: 100%;
+  display: block;
+  margin: auto;
+}
 
 
 a {
@@ -26,7 +30,7 @@ header {}
 }
 header {
   float: left;
-  background: grey;
+  background: ;
   margin: 0 0 30px 0;
   padding: 5px 0 0 0;
   width: 100%;
@@ -81,9 +85,7 @@ nav a {
   font-weight: ;
   padding: 15px 10px;
   color: coral;
-
-  #pic1 {
-    max-width: 80%;
+    
   }  
  
 
