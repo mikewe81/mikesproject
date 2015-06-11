@@ -2,11 +2,14 @@
 GENERAL
 **********************/
 
-
 img {
   max-width: 100%;
   display: block;
   margin: auto;
+}
+
+#cologo {
+  max-width: 150%;
 }
 
 
@@ -17,9 +20,15 @@ a {
 
 body {
   font-family: 'cuprum', sans-serif;
+  margin: 0 5px 0 5px;
+  background-color: #EDEFEF;
+  
 
 }
 
+#wrap {
+
+}
 
 header {}
 
@@ -34,17 +43,16 @@ header {
   margin: 0 0 30px 0;
   padding: 5px 0 0 0;
   width: 100%;
-  border-top: 3px solid;
-  border-bottom: 3px solid;
+  border-bottom: 3px solid grey;
 
 }
 
 h1 {
   
   font-size: 1.75em;
-  margin: 10px 0 0 0px;
+  margin: 10px 0 10 0px;
   line-height: .8em;
-  color: coral;
+  color: #7D1D3F;
   padding: 5px 5px;
   text-align: center;
 
@@ -52,11 +60,14 @@ h1 {
 }
 
 h2 {
-  margin: 10px 0 0 0px;
-  color: coral;
+  margin: 20px 0 40px 0px;
+  color: #7D1D3F;
   padding: 0 5px;
   text-align: center;
+}
 
+p, ul, h3 {
+  color: #515151;
 }
 
 
@@ -71,6 +82,7 @@ nav ul {
   list-style-type: none;
   text-align: center;
   padding: 0;
+  font-size: 1.4em;
 
 }
 
@@ -84,15 +96,32 @@ nav li {
 nav a {
   font-weight: ;
   padding: 15px 10px;
-  color: coral;
-<<<<<<< HEAD
-    
-=======
+  color: #7D1D3F;
+}
 
   #pic1 {
-    max-width: 80%;
->>>>>>> c7a879d8860b0e0f945648429e8e2672402f6be0
+    max-width: 100%;
+
   }  
+  
+  
+  
+ /**********************
+BODY
+**********************/ 
+  
+  #prof1 {
+    float: left;
+    display: inline-block;
+    margin: 10px;
+  }
+  
+.about_pic {
+  display: inline-block;
+  float: left;
+  
+}
+  
  
 
 /**********************
@@ -100,13 +129,18 @@ FOOTER
 **********************/
   
   
-  .foot {
-    max-height: 15%;
-    max-width: 15%;
-  }
-  
+footer {
+  text-align: center;
+  padding: 0 0 15px 0;
+}
 
+.foot_nav {
+padding: 5px;
+}
 
+.twitter-follow-button {
+margin: 10px 0 0 0;
+}
 
 
 
