@@ -70,7 +70,7 @@ nav ul {
 }
 
 nav li {
-  padding: 10px 0px 0px 0px;
+  padding: 10px;
   margin: 10px;
 }
 
@@ -80,7 +80,7 @@ nav a {
   color: #7D1D3F;
   text-align: center;
   font-size: 3em;
-  
+  display: block;
 }
 
   #pic1 {
