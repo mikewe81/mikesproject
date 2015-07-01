@@ -26,6 +26,7 @@ body {
 
 #logo {
   
+  width: 100%;
 }
 header {
   float: left;
@@ -88,7 +89,8 @@ button {
   background: light-grey;
   border-radius: 10px;
   box-shadow: 10px 10px 10px 2px;
-  width: 15em;
+  width: 90%;
+  height: 90px
 }
 
   
