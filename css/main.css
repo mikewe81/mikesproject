@@ -19,22 +19,12 @@ a {
 
 
 body {
-  font-family: 'cuprum', sans-serif;
-  margin: 0 5px 0 5px;
+  font-family: sans-serif;
+  margin: 0 10px;
   background-color: #EDEFEF;
-  
-
 }
-
-#wrap {
-
-}
-
-header {}
 
 #logo {
-  
-  margin: 0;
   
 }
 header {
@@ -44,7 +34,6 @@ header {
   padding: 5px 0 0 0;
   width: 100%;
   border-bottom: 3px solid grey;
-
 }
 
 h1 {
@@ -55,12 +44,10 @@ h1 {
   color: #7D1D3F;
   padding: 5px 5px;
   text-align: center;
-
-  
 }
 
 h2 {
-  margin: 20px 0 40px 0px;
+  margin: 20px 0 10px 0;
   color: #7D1D3F;
   padding: 0 5px;
   text-align: center;
@@ -70,10 +57,6 @@ p, ul, h3 {
   color: #515151;
 }
 
-
-
-
-
 /**********************
 NAVIGATION
 **********************/
@@ -81,46 +64,52 @@ NAVIGATION
 nav ul {
   list-style-type: none;
   text-align: center;
-  padding: 0;
   font-size: 1.4em;
-
+  padding: 0;
 }
 
 nav li {
-  text-align: center;
-  display: inline-block;
-  padding: 0 0 0 10px;
-  
+  padding: 10px 0px 0px 0px;
+  margin: 10px;
 }
 
 nav a {
-  font-weight: ;
-  padding: 15px 10px;
+  font-weight: bold;
+  padding: 5px 1px;
   color: #7D1D3F;
+  text-align: center;
 }
 
   #pic1 {
     max-width: 100%;
+}
 
-  }  
-  
+button {
+  background: light-grey;
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px 2px;
+  width: 15em;
+}
+
   
   
  /**********************
 BODY
 **********************/ 
   
-  #prof1 {
-    float: left;
-    display: inline-block;
-    margin: 10px;
-  }
+#prof1 {
+  float: left;
+  display: inline-block;
+  margin: 10px;
+}
   
 .about_pic {
   display: inline-block;
   float: left;
-  
+  margin: 5px 10px 5px 0;
 }
+
+
   
  
 
@@ -136,6 +125,8 @@ footer {
 
 .foot_nav {
 padding: 5px;
+margin: 5px 0 0 10px;
+display: inline-block;
 }
 
 .twitter-follow-button {
