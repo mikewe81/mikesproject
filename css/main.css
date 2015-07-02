@@ -96,12 +96,13 @@ nav a {
 
 
 
-button {
+.nav_button {
   background: light-grey;
   border-radius: 10px;
   box-shadow: 10px 10px 10px 2px;
   width: 80%;
-  height: 80px;
+  height: 70px;
+  
 }
 
   
@@ -234,8 +235,8 @@ label.light {
 
 #submit_form {
   display: block;
-  margin-left: 100px;
-  width: 40%;
+  margin-left: 30px;
+  width: 80%;
   height: 50px;  
 }
 
