@@ -24,10 +24,7 @@ body {
   background-color: #F2F2F2;
 }
 
-#logo {
-  
-  width: 100%;
-}
+
 header {
   float: left;
   background: ;
@@ -57,17 +54,29 @@ h2 {
 p, ul, h3 {
   color: #515151;
   margin: 0 10px;
-  font-size: 1.5em;
+  font-size: 1.2em;
 }
 
 /**********************
 NAVIGATION
 **********************/
 
+
+#cologo {
+  max-width: 30%;
+  float: left;
+  padding: 10px 0 30px 10px
+}
+
+#logo h1 {
+  font-size: 2.5em;
+  font-weight: bold;
+}
+
 nav ul {
   list-style-type: none;
   text-align: center;
-  font-size: 1.4em;
+  font-size: 1em;
   padding: 0;
 }
 
@@ -81,6 +90,7 @@ nav a {
   padding: 5px 1px;
   color: #7D1D3F;
   font-size: 3em;
+  display: block;
   
 }
 
@@ -90,8 +100,8 @@ button {
   background: light-grey;
   border-radius: 10px;
   box-shadow: 10px 10px 10px 2px;
-  width: 90%;
-  height: 90px;
+  width: 80%;
+  height: 80px;
 }
 
   
@@ -100,6 +110,7 @@ button {
 BODY
 **********************/ 
   
+
 #prof1 {
   float: left;
   display: inline-block;
@@ -133,7 +144,7 @@ footer {
 padding: 5px;
 margin: 5px 0 0 10px;
 display: inline-block;
-font-size: 3em;  
+font-size: 2em;  
 }
 
 .twitter-follow-button {
@@ -164,33 +175,27 @@ textarea,
 select {
   background: rgba(255,255,255,0.1);
   border: none;
-  font-size: 16px;
+  font-size: 18px;
   height: auto;
   margin: 0;
   outline: 0;
   padding: 15px;
   width: 100%;
   background-color: #e8eeef;
-  color: #8a97a0;
+  color: #515151;
   box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
   margin-bottom: 30px;
 }
 
-input[type="radio"],
-input[type="checkbox"] {
-  margin: 0 4px 8px 0;
+#required_field {
+  margin: 5px 0 10px 30px;
+  font-size: 1em;
+  padding: 5px;
 }
 
-select {
-  padding: 6px;
-  height: 32px;
-  border-radius: 2px;
-}
 
-button {
-  border-width: 1px 1px 3px;
-  margin-bottom: 10px;
-}
+
+
 
 fieldset {
   margin-bottom: 30px;
@@ -203,10 +208,6 @@ fieldset {
   border-style:outset;
 }
 
-legend {
-  font-size: 1.4em;
-    
-}
 
 label {
   display: block;
@@ -218,19 +219,10 @@ label.light {
   display: inline;
 }
 
-.number {
-  background-color: #C3DBC5;
-  color: #fff;
-  height: 30px;
-  width: 30px;
-  display: inline-block;
-  font-size: 0.8em;
-  margin-right: 4px;
-  line-height: 30px;
-  text-align: center;
-  text-shadow: 0 1px 0 rgba(255,255,255,0.2);
-  border-radius: 10%;
-}
+ 
+  
+
+
 
 @media screen and (min-width: 480px) {
 
@@ -241,12 +233,10 @@ label.light {
 }
 
 #submit_form {
-  text-align: center;
-  margin-left: 22px;
+  display: block;
+  margin-left: 100px;
   width: 40%;
-  height: 50px;
-  padding: 
-  
+  height: 50px;  
 }
 
 
