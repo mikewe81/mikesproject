@@ -55,16 +55,24 @@ NAVIGATION
 #cologo {
   max-width: 30%;
   float: left;
+<<<<<<< HEAD
+  padding: 10px 0 30px 10px;
+=======
+>>>>>>> new_features
 }
 
 #logo h1 {
   font-size: 2.5em;
   font-weight: bold;
+<<<<<<< HEAD
+  background: fff;
+=======
   background: grey;
   padding: 25px; 
   border-top-right-radius: 90px;
   border-bottom-right-radius: 90px;
   margin: 0;
+>>>>>>> new_features
 }
 
 nav ul {
