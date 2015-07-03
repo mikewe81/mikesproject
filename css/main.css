@@ -65,19 +65,23 @@ NAVIGATION
 #cologo {
   max-width: 30%;
   float: left;
-  padding: 10px 0 30px 10px
+  padding: 26px 0 0 0;
 }
 
 #logo h1 {
   font-size: 2.5em;
   font-weight: bold;
+  background: grey;
+  padding: 31px; 
+  border-top-right-radius: 90px;
+  border-bottom-right-radius: 90px;
 }
 
 nav ul {
   list-style-type: none;
   text-align: center;
   font-size: 1em;
-  padding: 0;
+  padding: 0 0 20px 0;
 }
 
 nav li {
@@ -87,11 +91,9 @@ nav li {
 
 nav a {
   font-weight: bold;
-  padding: 5px 1px;
   color: #7D1D3F;
   font-size: 3em;
   display: block;
-  
 }
 
 
@@ -138,14 +140,19 @@ FOOTER
   
 footer {
   text-align: center;
-  padding: 0 0 15px 0;
+  padding: 10px 0 10px 0;
+  margin: 30px 0 0 0;
+  background: grey;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
 }
 
 .foot_nav {
 padding: 5px;
 margin: 5px 0 0 10px;
 display: inline-block;
-font-size: 2em;  
+font-size: 1.2em;
+color: #7D1D3F;
 }
 
 .twitter-follow-button {
