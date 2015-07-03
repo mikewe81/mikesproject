@@ -65,19 +65,20 @@ NAVIGATION
 #cologo {
   max-width: 30%;
   float: left;
-  padding: 10px 0 30px 10px
+  padding: 10px 0 30px 10px;
 }
 
 #logo h1 {
   font-size: 2.5em;
   font-weight: bold;
+  background: fff;
 }
 
 nav ul {
   list-style-type: none;
   text-align: center;
   font-size: 1em;
-  padding: 0;
+  padding: 0 0 20px 0;
 }
 
 nav li {
@@ -91,7 +92,6 @@ nav a {
   color: #7D1D3F;
   font-size: 3em;
   display: block;
-  
 }
 
 
