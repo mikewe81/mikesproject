@@ -96,12 +96,7 @@ nav a {
   height: 70px;
 }
 
-.social_button {
-  max-width: 80px;
-  display: inline-block;
-  float: left;
-  margin: 15px 0 15px 39px;
-}
+
   
   
  /**********************
@@ -138,10 +133,8 @@ FOOTER
 footer {
   text-align: center;
   padding: 10px 0 10px 0;
-  margin: 30px 0 0 0;
-  background: grey;
-  border-top-left-radius: 20px;
-  border-top-right-radius: 20px;
+  margin: 0 auto;
+  display: block; 
 }
 
 .foot_nav {
@@ -158,6 +151,11 @@ color: #7D1D3F;
   color: aliceblue
 }
 
+.social_button {
+  max-width: 60px;
+  display: inline-block;
+  margin:15px 0 15px 25px;
+}
 
 /*******************
 CONTACT FORM
