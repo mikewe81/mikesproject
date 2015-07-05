@@ -132,9 +132,11 @@ FOOTER
   
 footer {
   text-align: center;
-  padding: 10px 0 10px 0;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
   margin: 0 auto;
-  display: block; 
+  display: block;
+  background: grey;
 }
 
 .foot_nav {
@@ -148,11 +150,11 @@ color: #7D1D3F;
 
 #foot_note {
   font-size: .7em;
-  color: aliceblue
+  color: aliceblue;
 }
 
 .social_button {
-  max-width: 60px;
+  max-width: 40px;
   display: inline-block;
   margin:15px 0 15px 25px;
 }
