@@ -53,18 +53,15 @@ NAVIGATION
 
 
 #cologo {
-  max-width: 30%;
+  max-width: 100px;
   float: left;
 }
 
 #logo h1 {
   font-size: 2.5em;
   font-weight: bold;
-  background: grey;
-  padding: 25px; 
-  border-top-right-radius: 90px;
-  border-bottom-right-radius: 90px;
-  margin: 0;
+  margin: 10px;
+  
 }
 
 nav ul {
@@ -82,7 +79,7 @@ nav li {
 nav a {
   font-weight: bold;
   color: #7D1D3F;
-  font-size: 3em;
+  font-size: 2.5em;
   display: block;
 }
 
@@ -91,9 +88,9 @@ nav a {
 .nav_button {
   background: light-grey;
   border-radius: 10px;
-  box-shadow: 10px 10px 10px 2px;
+  box-shadow: 5px 5px 5px 1px;
   width: 80%;
-  height: 70px;
+  height: 60px;
 }
 
 
@@ -125,6 +122,37 @@ BODY
   margin: 15px 0 15px 0; 
 }
 
+.contact-info {
+  border-bottom: 5px solid grey;
+  margin-bottom: 40px;
+  margin-top: -20px;
+  line-height: 1.5em;
+  border-radius: 5px;
+  background-color: #C7CCDB;
+  padding: 10px;
+}
+#quote_button {
+  border-radius: 10px;
+  background: light-grey;
+  margin: 20px 0 0 75px;
+  width: 60%;
+  height: 60px;
+  box-shadow: 5px 5px 5px 1px;
+
+}
+#quote_link {
+  color: #7D1D3F;
+  font-weight: bold;
+  font-size: 1.1em;
+}
+#bullets {
+  border: 2px solid grey;
+  border-radius: 5px;
+  margin: 20px;
+  padding: 15px 20px 15px 0px;
+  background-color: #C7CCDB;
+}
+
 /***********************
 FOOTER
 ***********************/
@@ -134,9 +162,10 @@ footer {
   text-align: center;
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
-  margin: 0 auto;
+  margin-top: 30px;
   display: block;
   background: grey;
+  padding: 10px 0 0 0;
 }
 
 .foot_nav {
@@ -155,9 +184,11 @@ color: #7D1D3F;
 
 .social_button {
   max-width: 40px;
-  display: inline-block;
-  margin:15px 0 15px 25px;
+  display: inline;
+  text-align: center;
+  margin: 10px;
 }
+
 
 /*******************
 CONTACT FORM
@@ -169,14 +200,9 @@ CONTACT FORM
 }
 
 input[type="text"],
-input[type="password"],
-input[type="date"],
-input[type="datetime"],
 input[type="email"],
 input[type="number"],
-input[type="search"],
 input[type="tel"],
-input[type="time"],
 input[type="url"],
 textarea,
 select {
@@ -205,7 +231,7 @@ fieldset {
   max-width: 90%;
   margin: 10px auto;
   padding: 40px 20px;
-  background: #4F646F;
+  background: #C7CCDB;
   border-radius: 10px;
   border-width:10px;	
   border-style:outset;
@@ -216,12 +242,6 @@ label {
   margin-bottom: 8px;
 }
 
-label.light {
-  font-weight: 300;
-  display: inline;
-}
-
-
 @media screen and (min-width: 480px) {
 
   form {
@@ -231,8 +251,25 @@ label.light {
 }
 
 #submit_form {
-  display: block;
-  margin-left: 30px;
+  background: light-grey;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px 1px;
   width: 80%;
-  height: 50px;  
+  height: 60px;
+  display: block;
+  margin: 0 0 0 25px;
 }
+
+#submit {
+  font-size: 1.2em;
+  color: black;
+}
+
+
+
+
+
+
+
+
+
